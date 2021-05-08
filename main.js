@@ -6,7 +6,7 @@ function setup(){
     canvas.center();
     video=createCapture(VIDEO);
     video.hide();
-    classifier=ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/[...]/model.json",modelLoaded);
+    classifier=ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/J2o5fP-N4/model.json",modelLoaded);
 }
 function modelLoaded(){
     console.log("model is loaded!");
